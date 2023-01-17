@@ -1,0 +1,6 @@
+label {
+    display: block;
+    float: right;
+    width : 120px;    
+}
+

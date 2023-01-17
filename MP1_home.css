@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    opacity: 1;
+  }
+
+
+
+footer {
+    color: white;
+    text-decoration: none;
+    font-family: 'Century Gothic MS';
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+.govtLinks {
+    margin: auto;
+    margin-top: 30px;
+    padding: auto;
+    line-height: 5px;
+}
+.govPh {
+    margin: auto;
+    margin-top: 30px;
+    padding: auto;
+    line-height: 5px;
+}
+
+.card {
+    border: 0px;
+}
+
+#birLogo {
+    display: block;
+   
+    max-width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+    opacity: 85%;
+}
+
+.btn {
+    background-color: rgb(202, 50, 50);
+    border: lightpink;
+    color: white;
+    
+}
+.card-title {
+    color: rgb(23,6,148);
+}
+
+.card-text {
+    color: rgb(23,6,148);
+
+}
+
+.reveal-bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    left: 0;
+    animation: revealText 1200ms ease-in-out;
+}
+
+.reveal-text-container .reveal-text {
+    text-transform: uppercase;
+    font-size:large;
+    font-weight: bolder;
+    position: relative;
+    color: transparent;
+    display:inline block;
+    animation: showText forwards;
+    animation-delay: 1000ms ease-out;
+}
